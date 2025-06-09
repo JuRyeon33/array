@@ -6,7 +6,7 @@ public class Main {
         int sum = 0;
 
         for (int i = 0; i < numbers.length; i++) {
-            sum += sum + i;
+            sum += numbers[i];
         }
         System.out.println("sum = " + sum);
     }
